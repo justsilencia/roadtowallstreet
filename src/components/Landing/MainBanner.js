@@ -47,9 +47,9 @@ const MainBanner = () => {
                   Get Started <i className="flaticon-right-arrow-3"></i>
                 </Link>
 
-                <Link to="#" className="join-us-btn">
+                {/* <Link to="#" className="join-us-btn">
                   <i className="flaticon-paper-plane"></i> Join Us On Telegram
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -91,7 +91,10 @@ const MainBanner = () => {
                     <div className="icon">
                       <i className="flaticon-idea"></i>
                     </div>
-                    <p>Expand Your Career Opportunities with Our Coaching</p>
+                    <p>
+                      Expand Your Career Opportunities with Our Financial
+                      Coaching
+                    </p>
                   </div>
                 </div>
 
