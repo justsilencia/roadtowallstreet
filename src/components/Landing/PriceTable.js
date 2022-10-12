@@ -34,23 +34,35 @@ const PriceTable = () => {
                   >
                     <div className="single-pricing-box">
                       <div className="pricing-content">
-                        <h3>Standard</h3>
-                        <h1>$49</h1>
-                        <p>Per Month, Billed Monthly</p>
-
+                        <h3>Knowledge Package</h3>
+                        <h1>$97</h1>
+                        <p>One Time Fee</p>
+                        <p>
+                          <strong>Webinars with the following content:</strong>
+                        </p>
                         <div className="pricing-list">
                           <ul>
                             <li>
-                              <i className="flaticon-check"></i> Military
-                              GradeServer Protection
+                              <i className="flaticon-check"></i>Career Advice
                             </li>
                             <li>
-                              <i className="flaticon-check"></i>All Dashboard
-                              Features
+                              <i className="flaticon-check"></i>Career
+                              Networking
                             </li>
                             <li>
-                              <i className="flaticon-check"></i>API And Webhook
-                              Access
+                              <i className="flaticon-check"></i>Interviewing
+                              Tips
+                            </li>
+                            <li>
+                              <i className="flaticon-check"></i>Personal
+                              Development
+                            </li>
+                            <li>
+                              <i className="flaticon-check"></i>Professional
+                              Education
+                            </li>
+                            <li>
+                              <i className="flaticon-check"></i>Personal Finance
                             </li>
                           </ul>
                         </div>
