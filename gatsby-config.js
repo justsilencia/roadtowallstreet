@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Klane - Gatsby React Multipurpose Landing Page Template`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `The Road to Walstreet`,
+    description: `We offer the knowledge and guidance you need to get hired and succeed on Wall Street.`,
+    author: `Jeff Wilson`,
+    siteUrl: `https://tbt.com`,
   },
   plugins: [
     `gatsby-plugin-image`,

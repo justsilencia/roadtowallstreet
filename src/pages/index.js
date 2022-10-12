@@ -1,27 +1,22 @@
 import * as React from "react"
 import Layout from "../components/Layout/layout"
 import Seo from "../components/Layout/seo"
-import Navbar from "../components/SaasSoftware/Navbar"
-import MainBanner from "../components/SaasSoftware/MainBanner"
-import Partner from "../components/SaasSoftware/Partner"
-import Features from "../components/SaasSoftware/Features"
-import DataAnalysis from "../components/SaasSoftware/DataAnalysis"
-import Services from "../components/SaasSoftware/Services"
-import CoreStatistics from "../components/SaasSoftware/CoreStatistics"
-import IntroVideo from "../components/SaasSoftware/IntroVideo"
-import FunFacts from "../components/SaasSoftware/FunFacts"
-import PriceTable from "../components/SaasSoftware/PriceTable"
-import ClientReviews from "../components/SaasSoftware/ClientReviews"
-import OurBlog from "../components/SaasSoftware/OurBlog"
-import Contact from "../components/SaasSoftware/Contact"
-import Footer from "../components/SaasSoftware/Footer"
+import Navbar from "../components/Layout/Navbar"
+import MainBanner from "../components/Landing/MainBanner"
+import Partner from "../components/Landing/Partner"
+import Features from "../components/Landing/Features"
+import DataAnalysis from "../components/Landing/DataAnalysis"
+import Services from "../components/Landing/Services"
+import PriceTable from "../components/Landing/PriceTable"
+import ClientReviews from "../components/Landing/ClientReviews"
+import Contact from "../components/Landing/Contact"
+import Footer from "../components/Landing/Footer"
 
 const IndexPage = () => {
   return (
     <Layout>
+      <Seo title="Financial Consulting" />
 
-      <Seo title="Home" />
-      
       <Navbar />
 
       <MainBanner />
@@ -30,26 +25,17 @@ const IndexPage = () => {
 
       <Features />
 
-      <DataAnalysis />
+      <PriceTable />
 
       <Services />
 
-      <CoreStatistics />
-
-      <IntroVideo />
-
-      <FunFacts />
-
-      <PriceTable />
+      <DataAnalysis />
 
       <ClientReviews />
-
-      <OurBlog />
 
       <Contact />
 
       <Footer />
-
     </Layout>
   )
 }
