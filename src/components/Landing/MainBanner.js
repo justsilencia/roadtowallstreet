@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import bannerMainImg from "../../images/banner/banner-img-4.png"
+import bannerMainImg from "../../images/banner/banner.png"
 import bannerBGImg from "../../images/banner/banner-bg-3.png"
 import shape30 from "../../images/shape/shape-30.png"
 import shape31 from "../../images/shape/shape-31.png"
