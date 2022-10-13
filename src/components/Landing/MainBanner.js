@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import bannerMainImg from "../../images/banner/banner.png"
+//import bannerMainImg from "../../images/banner/banner.png"
 import bannerBGImg from "../../images/banner/banner-bg-3.png"
 import shape30 from "../../images/shape/shape-30.png"
 import shape31 from "../../images/shape/shape-31.png"
@@ -41,7 +41,7 @@ const MainBanner = () => {
                   Front Office Finance Job on Wall Street
                 </p>
                 <Link
-                  to="#contact"
+                  to="#pricing"
                   className="consulting-default-btn btn mr-20"
                 >
                   Get Started <i className="flaticon-right-arrow-3"></i>
@@ -61,8 +61,8 @@ const MainBanner = () => {
                 data-aos-delay="400"
                 data-aos-once="true"
               >
-                <img src={bannerMainImg} alt="Image" />
-
+                {/* <img src={bannerMainImg} alt="Image" /> */}
+                <img src="/banner.png" alt="Image" />
                 {/* <div className="month-stars">
                   <ul className="list1 d-flex justify-content-between">
                     <li>Month</li>
