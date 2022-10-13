@@ -1,7 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-
-import logo from "../../images/logo/logo.png"
+import logo from "../../images/logo/logo-low-trans.webp"
 
 const Navbar = () => {
   const [menu, setMenu] = React.useState(true)
@@ -35,13 +34,8 @@ const Navbar = () => {
         className="navbar navbar-expand-md navbar-light nav-style3"
       >
         <div className="container-fluid">
-          <Link
-            to="/consulting"
-            onClick={toggleNavbar}
-            className="navbar-brand"
-          >
-            The Road to Wallstreet
-            {/* <img src={logo} alt="Logo" /> */}
+          <Link to="/" onClick={toggleNavbar} className="navbar-brand">
+            <img style={{ width: "40px" }} src={logo} alt="Logo" />
           </Link>
 
           <button
@@ -96,23 +90,12 @@ const Navbar = () => {
 
               <li className="nav-item">
                 <Link
-                  to="#services"
+                  to="#pricing"
                   activeClassName="active"
                   onClick={toggleNavbar}
                   className="nav-link"
                 >
                   Services
-                </Link>
-              </li>
-
-              <li className="nav-item">
-                <Link
-                  to="#portfolio"
-                  activeClassName="active"
-                  onClick={toggleNavbar}
-                  className="nav-link"
-                >
-                  Portfolio
                 </Link>
               </li>
             </ul>

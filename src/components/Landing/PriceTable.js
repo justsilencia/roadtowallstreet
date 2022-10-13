@@ -58,8 +58,14 @@ const PriceTable = () => {
                               Development
                             </li>
                             <li>
+                              <i className="flaticon-check"></i>Personal Advice
+                            </li>
+                            <li>
                               <i className="flaticon-check"></i>Professional
                               Education
+                            </li>
+                            <li>
+                              <i className="flaticon-check"></i>Financial Advice
                             </li>
                             <li>
                               <i className="flaticon-check"></i>Personal Finance
@@ -68,7 +74,7 @@ const PriceTable = () => {
                         </div>
 
                         <Link to="#contact" className="pricing-btn">
-                          Get Started
+                          Let's Do It!
                         </Link>
                       </div>
                     </div>
@@ -83,28 +89,47 @@ const PriceTable = () => {
                   >
                     <div className="single-pricing-box active">
                       <div className="pricing-content">
-                        <h3>Premium</h3>
-                        <h1>$249</h1>
-                        <p>Per Month, Billed Monthly</p>
+                        <h3>Abilities Package</h3>
+                        <h1>$97</h1>
+                        <p>One Time Fee</p>
+                        <p>
+                          <strong>
+                            Videos and webinars with the following content:
+                          </strong>
+                        </p>
 
                         <div className="pricing-list">
                           <ul>
                             <li>
-                              <i className="flaticon-check"></i> 8 Team Members
+                              <i className="flaticon-check"></i> Equity Research
                             </li>
                             <li>
-                              <i className="flaticon-check"></i>Custom Analytics
-                              Filters
+                              <i className="flaticon-check"></i>Financial
+                              Consulting
                             </li>
                             <li>
-                              <i className="flaticon-check"></i>API And Webhook
-                              Access
+                              <i className="flaticon-check"></i>Financial
+                              Services
+                            </li>
+                            <li>
+                              <i className="flaticon-check"></i>Investment
+                              Banking
+                            </li>
+                            <li>
+                              <i className="flaticon-check"></i>Hedge Funds
+                            </li>
+                            <li>
+                              <i className="flaticon-check"></i>Private Equity
+                            </li>
+                            <li>
+                              <i className="flaticon-check"></i>Financial
+                              Instruments
                             </li>
                           </ul>
                         </div>
 
                         <Link to="#contact" className="pricing-btn">
-                          Get Started
+                          Let's Do It!
                         </Link>
                       </div>
                       <span className="popular">Popular</span>
@@ -120,29 +145,50 @@ const PriceTable = () => {
                   >
                     <div className="single-pricing-box">
                       <div className="pricing-content">
-                        <h3>Professional</h3>
-                        <h1>$99</h1>
-                        <p>Per Month, Billed Monthly</p>
+                        <h3>Skills</h3>
+                        <h1>$97</h1>
+                        <p>One Time Fee</p>
+                        <p>
+                          <strong>
+                            Videos and webinars with the following content:
+                          </strong>
+                        </p>
 
                         <div className="pricing-list">
                           <ul>
                             <li>
-                              <i className="flaticon-check"></i> Military
-                              GradeServer Protection
+                              <i className="flaticon-check"></i>
+                              Financial Modeling
                             </li>
                             <li>
-                              <i className="flaticon-check"></i>All Dashboard
-                              Features
+                              <i className="flaticon-check"></i>
+                              Use of Financial Software
                             </li>
                             <li>
-                              <i className="flaticon-check"></i>API And Webhook
-                              Access
+                              <i className="flaticon-check"></i>
+                              Valuation Services
+                            </li>
+                            <li>
+                              <i className="flaticon-check"></i>
+                              Leveraged Buy-outs
+                            </li>
+                            <li>
+                              <i className="flaticon-check"></i>
+                              Mergers and Acquisitions
+                            </li>
+                            <li>
+                              <i className="flaticon-check"></i>
+                              Portfolio Management
+                            </li>
+                            <li>
+                              <i className="flaticon-check"></i>
+                              Real Estate
                             </li>
                           </ul>
                         </div>
 
                         <Link to="#contact" className="pricing-btn">
-                          Get Started
+                          Let's Do It!
                         </Link>
                       </div>
                     </div>

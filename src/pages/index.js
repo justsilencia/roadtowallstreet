@@ -27,11 +27,11 @@ const IndexPage = () => {
 
       <PriceTable />
 
-      <Services />
+      {/*<Services />
 
-      <DataAnalysis />
+       <DataAnalysis />
 
-      <ClientReviews />
+      <ClientReviews /> */}
 
       <Contact />
 

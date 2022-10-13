@@ -10,16 +10,16 @@ const Contact = () => {
       <div id="contact" className="contact-and-subscribe-area pt-100 pb-70">
         <div className="container">
           <div className="sass-section-title">
-            <span>Be The First To Know</span>
-            <h2>Grow Your Brand Presence on Social Media</h2>
+            <span>Reach Out and Begin Your Wall Street Journey</span>
+            <h2>Leverage Our Resources to Succeed</h2>
           </div>
 
           <div className="row">
-            <div
+            {/* <div
               className="col-lg-6"
               data-aos="fade-up"
               data-aos-duration="1200"
-              data-aos-delay="300" 
+              data-aos-delay="300"
               data-aos-once="true"
             >
               <div className="contact-widget">
@@ -85,13 +85,13 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div
-              className="col-lg-6"
+              className="col-lg-12"
               data-aos="fade-up"
               data-aos-duration="1200"
-              data-aos-delay="600" 
+              data-aos-delay="600"
               data-aos-once="true"
             >
               <div className="contact-widget">
@@ -106,7 +106,10 @@ const Contact = () => {
                   </div>
 
                   <div className="contact-form">
-                    <form className="newsletter-form" onSubmit={e => e.preventDefault()}>
+                    <form
+                      className="newsletter-form"
+                      onSubmit={e => e.preventDefault()}
+                    >
                       <input
                         type="email"
                         className="form-control"
@@ -127,16 +130,8 @@ const Contact = () => {
         </div>
 
         <div className="shape">
-          <img
-            src={shape6}
-            className="contact-shape-1"
-            alt="Image"
-          />
-          <img
-            src={shape7}
-            className="contact-shape-2"
-            alt="Image"
-          />
+          <img src={shape6} className="contact-shape-1" alt="Image" />
+          <img src={shape7} className="contact-shape-2" alt="Image" />
         </div>
       </div>
     </>

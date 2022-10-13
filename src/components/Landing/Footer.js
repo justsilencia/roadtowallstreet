@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import logo from "../../images/logo/logo.png"
+import logo from "../../images/logo/logo-low-trans.webp"
 
 const Footer = () => {
   return (
@@ -12,12 +12,16 @@ const Footer = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="logo-area style3">
                 <Link to="/consulting">
-                  <img src={logo} className="logo-1" alt="Image" />
+                  <img
+                    src={logo}
+                    style={{ width: "150px" }}
+                    className="logo-1"
+                    alt="Image"
+                  />
                 </Link>
                 <p>
-                  Duis cursus, mi quis viverra ornare, eros dolor interdum nulla
-                  utimp erdiet commodo diam libero vitae nibh et jus cursus id
-                  rutrum lore imperdiet ut sem vitae risus tristique posuere{" "}
+                  The Road to Wall Street exists to empower others to succeed in
+                  the competitive financial marketplace.
                 </p>
 
                 <div className="social-links">
@@ -84,11 +88,6 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/team">
-                        <i className="flaticon-next"></i>Our Team
-                      </Link>
-                    </li>
-                    <li>
                       <Link to="/projects">
                         <i className="flaticon-next"></i>Projects
                       </Link>
@@ -106,11 +105,6 @@ const Footer = () => {
                     <li>
                       <Link to="#features">
                         <i className="flaticon-next"></i>Features
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/blog">
-                        <i className="flaticon-next"></i>Blog
                       </Link>
                     </li>
                     <li>
@@ -139,24 +133,19 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a href="tel:+12023459999">
-                      <i className="flaticon-phone-call-2"></i> +12023459999
-                    </a>
-                  </li>
-                  <li>
-                    <a href="mailto:support@Klane.com">
-                      {" "}
-                      <i className="flaticon-email"></i> support@klane.com
+                      <i className="flaticon-phone-call-2"></i> +1 201-740-2005
                     </a>
                   </li>
                   <li>
                     <a href="mailto:contact@Klane.com">
                       {" "}
-                      <i className="flaticon-email"></i> contact@klane.com
+                      <i className="flaticon-email"></i>{" "}
+                      support@theroadtowallstreet.com
                     </a>
                   </li>
                   <li>
                     <i className="flaticon-map-1"></i>
-                    <p>3004 3rd Ln, Los Angeles, California, 11</p>
+                    <p>501 Route 17 South STE 1, #1074 Paramus, NJ 07652</p>
                   </li>
                 </ul>
               </div>
@@ -167,16 +156,7 @@ const Footer = () => {
 
       <div className="copy-right-area style4 bg-color-f9f5f4">
         <div className="container">
-          <p>
-            © Klane is Proudly Owned by{" "}
-            <a
-              href="https://hibotheme.com/"
-              target="_blank" 
-              rel="noreferrer"
-            >
-              HiboTheme
-            </a>
-          </p>
+          <p>© {new Date().getFullYear()} The Road to Wall Street</p>
         </div>
       </div>
     </>

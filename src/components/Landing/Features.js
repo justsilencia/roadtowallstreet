@@ -7,7 +7,7 @@ const Features = () => {
         <div className="container">
           <div className="consulting-section-title">
             <span>WELCOME</span>
-            <h2>We Are An Consulting Company</h2>
+            <h2>We Are a Financial Consulting Company</h2>
           </div>
 
           <div
