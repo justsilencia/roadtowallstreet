@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-//import logo from "../../images/logo/logo-low-trans.webp"
+import logo from "../../images/logo/logo-low-trans.webp"
 
 const Navbar = () => {
   const [menu, setMenu] = React.useState(true)
@@ -35,11 +35,7 @@ const Navbar = () => {
       >
         <div className="container-fluid">
           <Link to="/" onClick={toggleNavbar} className="navbar-brand">
-            <img
-              style={{ width: "40px" }}
-              src="/logo-low-trans.webp"
-              alt="Logo"
-            />
+            <img style={{ width: "40px" }} src={logo} alt="Logo" />
           </Link>
 
           <button
