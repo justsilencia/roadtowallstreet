@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import logo from "../../images/logo/logo-low-trans.webp"
+//import logo from "../../images/logo/logo-low-trans.webp"
 
 const Footer = () => {
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="logo-area style3">
                 <Link to="/consulting">
                   <img
-                    src={logo}
+                    src="/logo-low-trans.webp"
                     style={{ width: "150px" }}
                     className="logo-1"
                     alt="Image"

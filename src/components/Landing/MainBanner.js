@@ -2,17 +2,22 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 //import bannerMainImg from "../../images/banner/banner.png"
-import bannerBGImg from "../../images/banner/banner-bg-3.png"
-import shape30 from "../../images/shape/shape-30.png"
-import shape31 from "../../images/shape/shape-31.png"
+//import bannerBGImg from "../../images/banner/banner-bg-3.png"
+//import shape30 from "../../images/shape/shape-30.png"
+//import shape31 from "../../images/shape/shape-31.png"
 
 const MainBanner = () => {
   return (
     <>
-      <div
+      {/* <div
         id="home"
         className="consulting-banner-area"
         style={{ backgroundImage: `url(${bannerBGImg})` }}
+      > */}
+      <div
+        id="home"
+        className="consulting-banner-area"
+        style={{ backgroundImage: `url("/banner-bg.png")` }}
       >
         <div className="container-fluid">
           <div className="row align-items-center">
@@ -99,8 +104,8 @@ const MainBanner = () => {
                 </div>
 
                 {/* Shape Images */}
-                <img src={shape30} className="banner-shape-1" alt="Image" />
-                <img src={shape31} className="banner-shape-2" alt="Image" />
+                <img src="/shape-1" className="banner-shape-1" alt="Image" />
+                <img src="/shape-2" className="banner-shape-2" alt="Image" />
               </div>
             </div>
           </div>
