@@ -1,8 +1,13 @@
 import * as React from "react"
 import { Swiper, SwiperSlide } from "swiper/react"
-import { Autoplay } from "swiper";
+import { Autoplay } from "swiper"
 
-import partnerImg1 from "../../images/partner/partner1.png"
+import barclaysImg from "../../images/partner/barclays.png"
+import citiImg from "../../images/partner/citi.png"
+import jpImg from "../../images/partner/jpmorgan.png"
+import deutchImg from "../../images/partner/deutch.png"
+import societeImg from "../../images/partner/societe.png"
+import rbcImg from "../../images/partner/rbc.png"
 import partnerImg2 from "../../images/partner/partner2.png"
 import partnerImg3 from "../../images/partner/partner3.png"
 import partnerImg4 from "../../images/partner/partner4.png"
@@ -44,37 +49,37 @@ const Partner = () => {
           >
             <SwiperSlide>
               <div className="partner-card">
-                <img src={partnerImg1} alt="Image" />
+                <img src={barclaysImg} alt="Image" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-card">
-                <img src={partnerImg2} alt="Image" />
+                <img src={citiImg} alt="Image" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-card">
-                <img src={partnerImg3} alt="Image" />
+                <img src={deutchImg} alt="Image" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-card">
-                <img src={partnerImg4} alt="Image" />
+                <img src={jpImg} alt="Image" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-card">
-                <img src={partnerImg5} alt="Image" />
+                <img src={societeImg} alt="Image" />
               </div>
             </SwiperSlide>
 
             <SwiperSlide>
               <div className="partner-card">
-                <img src={partnerImg6} alt="Image" />
+                <img src={rbcImg} alt="Image" />
               </div>
             </SwiperSlide>
 
