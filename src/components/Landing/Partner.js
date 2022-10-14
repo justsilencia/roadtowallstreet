@@ -8,11 +8,6 @@ import jpImg from "../../images/partner/jpmorgan.png"
 import deutchImg from "../../images/partner/deutch.png"
 import societeImg from "../../images/partner/societe.png"
 import rbcImg from "../../images/partner/rbc.png"
-import partnerImg2 from "../../images/partner/partner2.png"
-import partnerImg3 from "../../images/partner/partner3.png"
-import partnerImg4 from "../../images/partner/partner4.png"
-import partnerImg5 from "../../images/partner/partner5.png"
-import partnerImg6 from "../../images/partner/partner6.png"
 import partnerImg7 from "../../images/partner/partner7.png"
 import partnerImg8 from "../../images/partner/partner8.png"
 
@@ -21,6 +16,13 @@ const Partner = () => {
     <>
       <div className="consulting-partner-area ptb-100">
         <div className="container">
+          <div className="consulting-section-title">
+            <h2>Past Clients</h2>
+            <span>
+              I have trained Analysts & Associates at some of the largest and
+              most well-known Financial Institutions in the World
+            </span>
+          </div>
           <Swiper
             spaceBetween={30}
             breakpoints={{
