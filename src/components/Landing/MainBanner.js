@@ -24,7 +24,10 @@ const MainBanner = () => {
               data-aos-once="true"
             >
               <div className="consulting-banner-content">
-                <span>Succeed On Wallstreet!</span>
+                <span>
+                  Build a Career in Finance on Wall Street |{" "}
+                  <strong>Start Today!</strong>
+                </span>
 
                 <h1>
                   Getting a Job on Wall Street Will Earn You LOTS of Money
