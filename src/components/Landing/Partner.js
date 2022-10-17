@@ -84,18 +84,6 @@ const Partner = () => {
                 <img src={rbcImg} alt="Image" />
               </div>
             </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="partner-card">
-                <img src={partnerImg7} alt="Image" />
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="partner-card">
-                <img src={partnerImg8} alt="Image" />
-              </div>
-            </SwiperSlide>
           </Swiper>
         </div>
       </div>
