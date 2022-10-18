@@ -35,8 +35,8 @@ const Navbar = () => {
       >
         <div className="container-fluid">
           <Link to="/" onClick={toggleNavbar} className="navbar-brand">
-            <img style={{ width: "40px" }} src={logo} alt="Logo" /> The Road to
-            Wall Street
+            <img style={{ width: "40px" }} src={logo} alt="Logo" />{" "}
+            <span>The Road to Wall Street</span>
           </Link>
 
           <button

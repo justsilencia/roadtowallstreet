@@ -3,8 +3,7 @@ import { Link } from "gatsby"
 
 import bannerMainImg from "../../images/banner/banner.png"
 import bannerBGImg from "../../images/banner/banner-bg-3.png"
-import shape30 from "../../images/shape/shape-30.png"
-import shape31 from "../../images/shape/shape-31.png"
+import imgDollar from "../../images/chart-dollars.webp"
 
 const MainBanner = () => {
   return (
@@ -64,35 +63,12 @@ const MainBanner = () => {
                 data-aos-delay="400"
                 data-aos-once="true"
               >
-                {/* <img src={bannerMainImg} alt="Image" /> */}
                 <img src={bannerMainImg} alt="Image" />
-                {/* <div className="month-stars">
-                  <ul className="list1 d-flex justify-content-between">
-                    <li>Month</li>
-                    <li>Stars</li>
-                  </ul>
-
-                  <ul className="list2 d-flex justify-content-between">
-                    <li>+3.2%</li>
-                    <li>$827</li>
-                  </ul>
-
-                  <div className="progress">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{ width: "25%" }}
-                      aria-valuenow="25"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div> */}
 
                 <div className="careear">
                   <div className="content">
                     <div className="icon">
-                      <i className="flaticon-idea"></i>
+                      <i className="flaticon-money-management"></i>
                     </div>
                     <p>
                       Expand Your Career Opportunities with Our Financial
@@ -101,9 +77,8 @@ const MainBanner = () => {
                   </div>
                 </div>
 
-                {/* Shape Images */}
-                <img src={shape30} className="banner-shape-1" alt="Image" />
-                <img src={shape31} className="banner-shape-2" alt="Image" />
+                {/* Animated Images */}
+                <img src={imgDollar} className="banner-shape-1" alt="Image" />
               </div>
             </div>
           </div>
