@@ -5,7 +5,7 @@ import cityImg from "../../images/city-street.png"
 const AboutMe = () => {
   return (
     <>
-      <div className="data-analysis bg-color-f8f8f8 ptb-100">
+      <div id="about" className="data-analysis bg-color-f8f8f8 ptb-100">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">

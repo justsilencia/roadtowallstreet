@@ -85,7 +85,7 @@ const Navbar = () => {
                   onClick={toggleNavbar}
                   className="nav-link"
                 >
-                  About Us
+                  About Me
                 </Link>
               </li>
 
